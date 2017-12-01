@@ -14,15 +14,40 @@ from psmon.plots import XYPlot,Image,Hist,MultiPlot
 from psmon import publish
 #publish.init(post=12304)
 
-run = 42
+run = 50
 ds = DataSource("exp=AMO/amolr2516:run=%d:smd:dir=/reg/d/psdm/amo/amolr2516/xtc:live" % run)
 procFEE=FEEGasProcessor()
 MINITOF_det = Detector('ACQ1')
 EBEAM_det = Detector('EBeam')
 
+
+vals = []
+vals_l3 = []
+ct = 0
+for nevt, evt in enumerate(ds.events()):
+    FEE_shot_energy = procFEE.ShotEnergy(evt)
+    EBEAM = EBEAM_det.get(evt)
+    if EBEAM is None:
+        continue
+    EBEAM_beam_energy = EBEAM.ebeamL3Energy()  # beam energy in MeV
+    if FEE_shot_energy is None:
+        continue
+    if nevt%50==0:
+        ct += 1
+        vals.append(FEE_shot_energy)
+        vals_l3.append(EBEAM_beam_energy)
+    if ct > 50:
+        print "done"
+        break
+vals_std = np.asarray(vals).std()
+vals_mean = np.asarray(vals).mean()
+threshold = vals_mean - 2*vals_std
+l3_mean = int(np.asarray(vals_l3).mean())
+print "threshold: %f, mean: %f, std: %f, l3: %d" % (threshold,vals_mean,vals_std,EBEAM_beam_energy)
+
 numbins_L3Energy=100
-minhistlim_L3Energy=3350
-maxhistlim_L3Energy=3450
+minhistlim_L3Energy=l3_mean-50
+maxhistlim_L3Energy=l3_mean+50
 
 numbins_L3EnergyWeighted=100
 minhistlim_L3EnergyWeighted=minhistlim_L3Energy
@@ -32,22 +57,6 @@ hist_L3Energy=Histogram((numbins_L3Energy,minhistlim_L3Energy,maxhistlim_L3Energ
 hist_L3EnergyWeighted=Histogram((numbins_L3EnergyWeighted,minhistlim_L3EnergyWeighted,maxhistlim_L3EnergyWeighted))
 hist_L3EnergyWeighted_unnorm=Histogram((numbins_L3EnergyWeighted,minhistlim_L3EnergyWeighted,maxhistlim_L3EnergyWeighted))
 
-vals = []
-ct = 0
-for nevt, evt in enumerate(ds.events()):
-    FEE_shot_energy = procFEE.ShotEnergy(evt)
-    if FEE_shot_energy is None:
-        continue
-    if nevt%50==0:
-        ct += 1
-        vals.append(FEE_shot_energy)
-    if ct > 50:
-        print "done"
-        break
-vals_std = np.asarray(vals).std()
-vals_mean = np.asarray(vals).mean()
-threshold = vals_mean - 2*vals_std
-print "threshold: %f, mean: %f, std: %f" % (threshold,vals_mean,vals_std)
 
 ds = DataSource("exp=AMO/amolr2516:run=%d:smd:dir=/reg/d/psdm/amo/amolr2516/xtc:live" % run)
 for nevt, evt in enumerate(ds.events()):
