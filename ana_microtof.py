@@ -14,7 +14,7 @@ from psmon.plots import XYPlot,Image,Hist,MultiPlot
 from psmon import publish
 #publish.init(post=12304)
 
-run = 50
+run = 52
 ds = DataSource("exp=AMO/amolr2516:run=%d:smd:dir=/reg/d/psdm/amo/amolr2516/xtc:live" % run)
 procFEE=FEEGasProcessor()
 MINITOF_det = Detector('ACQ1')
