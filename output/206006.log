@@ -1,0 +1,161 @@
+kinit: KDC can't fulfill requested option while renewing credentials
+0.02 done
+0.02 done
+0.03 done
+0.03 done
+0.05 done
+0.05 done
+0.06 done
+0.06 done
+0.08 done
+0.08 done
+0.09 done
+0.09 done
+0.11 done
+0.11 done
+0.12 done
+0.12 done
+0.14 done
+0.14 done
+0.16 done
+0.16 done
+0.17 done
+0.17 done
+0.19 done
+0.19 done
+0.20 done
+0.20 done
+0.22 done
+0.22 done
+0.23 done
+0.23 done
+0.25 done
+0.25 done
+0.27 done
+0.27 done
+0.28 done
+0.28 done
+0.30 done
+0.30 done
+0.31 done
+0.31 done
+0.33 done
+0.33 done
+0.34 done
+0.34 done
+0.36 done
+0.36 done
+0.38 done
+0.38 done
+0.39 done
+0.39 done
+0.41 done
+0.41 done
+0.42 done
+0.42 done
+0.44 done
+0.44 done
+0.45 done
+0.45 done
+0.47 done
+0.47 done
+0.48 done
+0.48 done
+0.50 done
+0.50 done
+0.52 done
+0.52 done
+0.53 done
+0.53 done
+0.55 done
+0.55 done
+0.56 done
+0.56 done
+0.58 done
+0.58 done
+0.59 done
+0.59 done
+0.61 done
+0.61 done
+0.62 done
+0.62 done
+0.64 done
+0.64 done
+0.66 done
+0.66 done
+0.67 done
+0.67 done
+0.69 done
+0.69 done
+0.70 done
+0.70 done
+0.72 done
+0.72 done
+0.73 done
+0.73 done
+0.75 done
+0.75 done
+0.77 done
+0.77 done
+0.78 done
+0.78 done
+0.80 done
+0.80 done
+0.81 done
+0.81 done
+0.83 done
+0.83 done
+0.84 done
+0.84 done
+0.86 done
+0.86 done
+0.88 done
+0.88 done
+0.89 done
+0.89 done
+0.91 done
+0.91 done
+0.92 done
+0.92 done
+0.94 done
+0.94 done
+0.95 done
+0.95 done
+0.97 done
+0.97 done
+0.98 done
+0.98 done
+1.00 done
+done
+1.00 done
+done
+
+------------------------------------------------------------
+Sender: LSF System <lsf@psana1102.pcdsn>
+Subject: Job 206006: <mpirun python ana_delay_scan.py> in cluster <slac> Done
+
+Job <mpirun python ana_delay_scan.py> was submitted from host <psanaphi108.pcdsn> by user <sjarosch> in cluster <slac> at Fri Dec  1 19:38:29 2017.
+Job was executed on host(s) <2*psana1102>, in queue <psanaq>, as user <sjarosch> in cluster <slac> at Fri Dec  1 19:38:34 2017.
+</reg/neh/home/sjarosch> was used as the home directory.
+</reg/neh/home/sjarosch/lr25_code> was used as the working directory.
+Started at Fri Dec  1 19:38:34 2017.
+Terminated at Fri Dec  1 19:52:08 2017.
+Results reported at Fri Dec  1 19:52:08 2017.
+Cannot open your job file: /reg/neh/home/sjarosch/.lsbatch/1512185909.206006
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2068.90 sec.
+    Max Memory :                                 18423 MB
+    Average Memory :                             9555.48 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                7
+    Run time :                                   813 sec.
+    Turnaround time :                            819 sec.
+
+The output (if any) is above this job summary.
+
