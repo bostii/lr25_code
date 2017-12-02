@@ -1,0 +1,37 @@
+kinit: KDC can't fulfill requested option while renewing credentials
+yep
+
+------------------------------------------------------------
+Sender: LSF System <lsf@psana1111.pcdsn>
+Subject: Job 55484: <python b_ana_intensity_scan.py> in cluster <slac> Done
+
+Job <python b_ana_intensity_scan.py> was submitted from host <psanaphi108.pcdsn> by user <sjarosch> in cluster <slac> at Fri Dec  1 15:30:55 2017.
+Job was executed on host(s) <12*psana1111>, in queue <psanaq>, as user <sjarosch> in cluster <slac> at Fri Dec  1 15:30:57 2017.
+                            <12*psana1103>
+                            <12*psana1104>
+                            <12*psana1105>
+                            <12*psana1106>
+                            <4*psana1108>
+</reg/neh/home/sjarosch> was used as the home directory.
+</reg/neh/home/sjarosch/lr25_code> was used as the working directory.
+Started at Fri Dec  1 15:30:57 2017.
+Terminated at Fri Dec  1 15:53:20 2017.
+Results reported at Fri Dec  1 15:53:20 2017.
+Cannot open your job file: /reg/neh/home/sjarosch/.lsbatch/1512171055.55484
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1527.48 sec.
+    Max Memory :                                 9244 MB
+    Average Memory :                             4597.52 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   1342 sec.
+    Turnaround time :                            1345 sec.
+
+The output (if any) is above this job summary.
+

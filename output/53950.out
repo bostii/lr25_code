@@ -1,0 +1,40 @@
+kinit: KDC can't fulfill requested option while renewing credentials
+  File "b_ana_intensity_scan.py", line 9
+    %matplotlib nbagg
+    ^
+SyntaxError: invalid syntax
+
+------------------------------------------------------------
+Sender: LSF System <lsf@psana1111.pcdsn>
+Subject: Job 53950: <python b_ana_intensity_scan.py> in cluster <slac> Exited
+
+Job <python b_ana_intensity_scan.py> was submitted from host <psanaphi108.pcdsn> by user <sjarosch> in cluster <slac> at Fri Dec  1 15:28:51 2017.
+Job was executed on host(s) <12*psana1111>, in queue <psanaq>, as user <sjarosch> in cluster <slac> at Fri Dec  1 15:28:54 2017.
+                            <12*psana1103>
+                            <12*psana1104>
+                            <12*psana1105>
+                            <12*psana1106>
+                            <4*psana1108>
+</reg/neh/home/sjarosch> was used as the home directory.
+</reg/neh/home/sjarosch/lr25_code> was used as the working directory.
+Started at Fri Dec  1 15:28:54 2017.
+Terminated at Fri Dec  1 15:28:57 2017.
+Results reported at Fri Dec  1 15:28:57 2017.
+Cannot open your job file: /reg/neh/home/sjarosch/.lsbatch/1512170931.53950
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.20 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   2 sec.
+    Turnaround time :                            6 sec.
+
+The output (if any) is above this job summary.
+

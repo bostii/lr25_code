@@ -1,0 +1,39 @@
+kinit: KDC can't fulfill requested option while renewing credentials
+ana_microtof.py:52: RuntimeWarning: invalid value encountered in divide
+  vShotsPerL3Energy=np.nan_to_num(hist_L3EnergyWeighted.values/hist_L3Energy.values)
+tset
+
+------------------------------------------------------------
+Sender: LSF System <lsf@psana1319.pcdsn>
+Subject: Job 591421: <python ana_microtof.py> in cluster <slac> Done
+
+Job <python ana_microtof.py> was submitted from host <psanagpu105.pcdsn> by user <sjarosch> in cluster <slac> at Thu Nov 30 17:58:53 2017.
+Job was executed on host(s) <12*psana1319>, in queue <psanaq>, as user <sjarosch> in cluster <slac> at Thu Nov 30 17:59:00 2017.
+                            <12*psana1113>
+                            <12*psana1413>
+                            <12*psana1414>
+                            <12*psana1416>
+                            <4*psana1418>
+</reg/neh/home/sjarosch> was used as the home directory.
+</reg/neh/home/sjarosch/lr25_code> was used as the working directory.
+Started at Thu Nov 30 17:59:00 2017.
+Terminated at Thu Nov 30 18:02:09 2017.
+Results reported at Thu Nov 30 18:02:09 2017.
+Cannot open your job file: /reg/neh/home/sjarosch/.lsbatch/1512093533.591421
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   60.81 sec.
+    Max Memory :                                 75 MB
+    Average Memory :                             69.50 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                8
+    Run time :                                   186 sec.
+    Turnaround time :                            196 sec.
+
+The output (if any) is above this job summary.
+

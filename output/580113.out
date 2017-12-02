@@ -1,0 +1,40 @@
+kinit: KDC can't fulfill requested option while renewing credentials
+Traceback (most recent call last):
+  File "ana_microtof.py", line 27, in <module>
+    wf= MINITOF_det.waveform(evt)
+NameError: name 'MINITOF_det' is not defined
+
+------------------------------------------------------------
+Sender: LSF System <lsf@psana1103.pcdsn>
+Subject: Job 580113: <python ana_microtof.py> in cluster <slac> Exited
+
+Job <python ana_microtof.py> was submitted from host <psanagpu101.pcdsn> by user <sjarosch> in cluster <slac> at Thu Nov 30 17:09:09 2017.
+Job was executed on host(s) <12*psana1103>, in queue <psanaq>, as user <sjarosch> in cluster <slac> at Thu Nov 30 17:09:13 2017.
+                            <12*psana1104>
+                            <12*psana1108>
+                            <12*psana1111>
+                            <12*psana1115>
+                            <4*psana1118>
+</reg/neh/home/sjarosch> was used as the home directory.
+</reg/neh/home/sjarosch/lr25_code> was used as the working directory.
+Started at Thu Nov 30 17:09:13 2017.
+Terminated at Thu Nov 30 17:09:22 2017.
+Results reported at Thu Nov 30 17:09:22 2017.
+Cannot open your job file: /reg/neh/home/sjarosch/.lsbatch/1512090549.580113
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   1.71 sec.
+    Max Memory :                                 43 MB
+    Average Memory :                             43.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   12 sec.
+    Turnaround time :                            13 sec.
+
+The output (if any) is above this job summary.
+

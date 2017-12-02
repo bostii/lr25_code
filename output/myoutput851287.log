@@ -1,0 +1,44 @@
+kinit: KDC can't fulfill requested option while renewing credentials
+python: can't open file 'mpiReduce.py': [Errno 2] No such file or directory
+python: can't open file 'mpiReduce.py': [Errno 2] No such file or directory
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6154,1],0]
+  Exit code:    2
+--------------------------------------------------------------------------
+
+------------------------------------------------------------
+Sender: LSF System <lsf@psana1313.pcdsn>
+Subject: Job 851287: <mpirun python mpiReduce.py> in cluster <slac> Exited
+
+Job <mpirun python mpiReduce.py> was submitted from host <psanagpu101.pcdsn> by user <sjarosch> in cluster <slac> at Tue Nov 28 13:35:41 2017.
+Job was executed on host(s) <2*psana1313>, in queue <psanaq>, as user <sjarosch> in cluster <slac> at Tue Nov 28 13:35:42 2017.
+</reg/neh/home/sjarosch> was used as the home directory.
+</reg/neh/home/sjarosch> was used as the working directory.
+Started at Tue Nov 28 13:35:42 2017.
+Terminated at Tue Nov 28 13:35:44 2017.
+Results reported at Tue Nov 28 13:35:44 2017.
+Cannot open your job file: /reg/neh/home/sjarosch/.lsbatch/1511904941.851287
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.24 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   9 sec.
+    Turnaround time :                            3 sec.
+
+The output (if any) is above this job summary.
+

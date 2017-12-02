@@ -1,0 +1,43 @@
+kinit: KDC can't fulfill requested option while renewing credentials
+python: can't open file 'b_ana_intensity_scan.py': [Errno 2] No such file or directory
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[34535,1],1]
+  Exit code:    2
+--------------------------------------------------------------------------
+
+------------------------------------------------------------
+Sender: LSF System <lsf@psana1108.pcdsn>
+Subject: Job 66745: <mpirun python b_ana_intensity_scan.py> in cluster <slac> Exited
+
+Job <mpirun python b_ana_intensity_scan.py> was submitted from host <psanaphi108.pcdsn> by user <sjarosch> in cluster <slac> at Fri Dec  1 15:44:57 2017.
+Job was executed on host(s) <2*psana1108>, in queue <psanaq>, as user <sjarosch> in cluster <slac> at Fri Dec  1 15:44:59 2017.
+</reg/neh/home/sjarosch> was used as the home directory.
+</reg/neh/home/sjarosch/lr25_code/output> was used as the working directory.
+Started at Fri Dec  1 15:44:59 2017.
+Terminated at Fri Dec  1 15:45:01 2017.
+Results reported at Fri Dec  1 15:45:01 2017.
+Cannot open your job file: /reg/neh/home/sjarosch/.lsbatch/1512171897.66745
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.26 sec.
+    Max Memory :                                 1 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              1
+    Max Threads :                                1
+    Run time :                                   7 sec.
+    Turnaround time :                            4 sec.
+
+The output (if any) is above this job summary.
+

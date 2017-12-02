@@ -1,0 +1,44 @@
+kinit: KDC can't fulfill requested option while renewing credentials
+python: can't open file 'bsub_ana_intensity_scan.py': [Errno 2] No such file or directory
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+python: can't open file 'bsub_ana_intensity_scan.py': [Errno 2] No such file or directory
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[34312,1],1]
+  Exit code:    2
+--------------------------------------------------------------------------
+
+------------------------------------------------------------
+Sender: LSF System <lsf@psana1108.pcdsn>
+Subject: Job 66221: <mpirun python bsub_ana_intensity_scan.py> in cluster <slac> Exited
+
+Job <mpirun python bsub_ana_intensity_scan.py> was submitted from host <psanaphi108.pcdsn> by user <sjarosch> in cluster <slac> at Fri Dec  1 15:44:20 2017.
+Job was executed on host(s) <2*psana1108>, in queue <psanaq>, as user <sjarosch> in cluster <slac> at Fri Dec  1 15:44:21 2017.
+</reg/neh/home/sjarosch> was used as the home directory.
+</reg/neh/home/sjarosch/lr25_code> was used as the working directory.
+Started at Fri Dec  1 15:44:21 2017.
+Terminated at Fri Dec  1 15:44:23 2017.
+Results reported at Fri Dec  1 15:44:23 2017.
+Cannot open your job file: /reg/neh/home/sjarosch/.lsbatch/1512171860.66221
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.27 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   8 sec.
+    Turnaround time :                            3 sec.
+
+The output (if any) is above this job summary.
+

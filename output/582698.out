@@ -1,0 +1,40 @@
+kinit: KDC can't fulfill requested option while renewing credentials
+Traceback (most recent call last):
+  File "ana_microtof.py", line 51, in <module>
+    vShotsPerL3Energy=hist_L3EnergyWeighted/np.float(hist_L3Energy.values)
+TypeError: only length-1 arrays can be converted to Python scalars
+
+------------------------------------------------------------
+Sender: LSF System <lsf@psana1103.pcdsn>
+Subject: Job 582698: <python ana_microtof.py> in cluster <slac> Exited
+
+Job <python ana_microtof.py> was submitted from host <psanagpu101.pcdsn> by user <sjarosch> in cluster <slac> at Thu Nov 30 17:19:01 2017.
+Job was executed on host(s) <12*psana1103>, in queue <psanaq>, as user <sjarosch> in cluster <slac> at Thu Nov 30 17:19:04 2017.
+                            <12*psana1105>
+                            <12*psana1106>
+                            <12*psana1107>
+                            <12*psana1416>
+                            <4*psana1418>
+</reg/neh/home/sjarosch> was used as the home directory.
+</reg/neh/home/sjarosch/lr25_code> was used as the working directory.
+Started at Thu Nov 30 17:19:04 2017.
+Terminated at Thu Nov 30 17:19:47 2017.
+Results reported at Thu Nov 30 17:19:47 2017.
+Cannot open your job file: /reg/neh/home/sjarosch/.lsbatch/1512091141.582698
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   11.91 sec.
+    Max Memory :                                 72 MB
+    Average Memory :                             63.50 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                8
+    Run time :                                   66 sec.
+    Turnaround time :                            46 sec.
+
+The output (if any) is above this job summary.
+

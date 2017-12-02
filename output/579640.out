@@ -1,0 +1,37 @@
+kinit: KDC can't fulfill requested option while renewing credentials
+python: can't open file 'ana_microtof.py': [Errno 2] No such file or directory
+
+------------------------------------------------------------
+Sender: LSF System <lsf@psana1118.pcdsn>
+Subject: Job 579640: <python ana_microtof.py> in cluster <slac> Exited
+
+Job <python ana_microtof.py> was submitted from host <psanagpu101.pcdsn> by user <sjarosch> in cluster <slac> at Thu Nov 30 17:07:39 2017.
+Job was executed on host(s) <12*psana1118>, in queue <psanaq>, as user <sjarosch> in cluster <slac> at Thu Nov 30 17:07:43 2017.
+                            <12*psana1119>
+                            <12*psana1402>
+                            <12*psana1416>
+                            <12*psana1418>
+                            <4*psana1306>
+</reg/neh/home/sjarosch> was used as the home directory.
+</reg/neh/home/sjarosch> was used as the working directory.
+Started at Thu Nov 30 17:07:43 2017.
+Terminated at Thu Nov 30 17:07:45 2017.
+Results reported at Thu Nov 30 17:07:45 2017.
+Cannot open your job file: /reg/neh/home/sjarosch/.lsbatch/1512090459.579640
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.24 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   3 sec.
+    Turnaround time :                            6 sec.
+
+The output (if any) is above this job summary.
+
